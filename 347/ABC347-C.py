@@ -1,6 +1,8 @@
 # 入力を受け取る
 N, A, B = map(int, input().split())
 D = list(map(int, input().split()))
+#一週間の何日目かが重要なので、DをA+Bで割った余りに置き換える
+D %= A + B
 
 # 休日の範囲を計算する
 start_holiday = 1
