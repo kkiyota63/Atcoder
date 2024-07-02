@@ -22,8 +22,8 @@ elif X <= -10 :
         new_number = X_str[:-1]
         print(new_number)
         exit()
-    # new_number_str = X_str[:-1]
-    # new_number = int(new_number_str) - 1
-    # print(new_number)
+    new_number_str = X_str[:-1]
+    new_number = int(new_number_str)
+    print(new_number)
 else:
     print(math.ceil(X / 10))
